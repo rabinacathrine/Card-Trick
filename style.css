@@ -1,0 +1,131 @@
+.hat{
+    width:500px;
+    background:white;
+  /*   text-align:center; */
+    display:flex;
+  }
+  #hat{
+    width:200px;
+    height:200px;
+    border:none;
+   border-radius:0px;
+  
+    
+  }
+  /* #hat{
+    width:500px;
+    height:400px;
+  } */
+  body{
+    background:black;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    background: #034;
+    background-image: radial-gradient(#034 5%, #012 100%);
+    background-size: cover;
+  }
+  img{
+    width:100px;
+    height:150px;
+    padding: 5px 5px;
+    border-radius:15px;
+  }
+  #cards{
+    margin:30px;
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    display:none;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  @keyframes example {
+  /*   0%   { left:0px; top:0px;} */
+  /*   25%  {left:200px; top:0px;}
+     100% {left:0px; top:0px;} */
+     0%   { left:500px; top:0px;}
+    25%  { left:0px; top:0px;}
+  /*   25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;} */
+  }
+  #card2{
+     margin:30px;
+    display:none;
+    position: relative;
+    animation-name: card2anim;
+    animation-duration: 5s;
+  }
+  @keyframes card2anim {
+  /*   0%   { left:0px; top:0px;} */
+  /*   25%  {left:200px; top:0px;}
+     100% {left:0px; top:0px;} */
+     0%   { left:500px; top:0px;}
+    25%  { left:0px; top:0px;}
+  }
+  /* .bubble {
+    border-radius: 10px;
+    padding: 1vmin;
+    background: #dd5;
+    position: absolute;
+  /*   top: 50%;
+    left: 50%; */
+  /*   z-index: 100; */
+  /*   color: black;
+    font-size: 3vmin;
+    font-family: Kreon, arial, sans-serif;
+  /*   display: none; */
+  /* }  */
+  
+  .bubble{
+    border-radius: 10px;
+    font-size:20px;
+    background: #dd5;
+     padding: 1vmin;
+    margin:20px;
+    display:none;
+    font-family: Kreon, arial, sans-serif;
+    text-align:center;
+  }
+  
+  .hat div:nth-child(2) {
+      display: block;
+  }
+  
+  button{
+    margin:10px;
+    border-radius:45px;
+    background:red;
+    cursor:pointer;
+  }
+  
+  /* 
+  #bubble-1 {
+    transform: translate(-49vmin, -32vmin);
+    -webkit-transform: translate(-49vmin, -32vmin);
+    width: 35vmin;
+  } */
+  
+  /* #bubble-2 {
+    transform: translate(10vmin, -34vmin);
+    -webkit-transform: translate(10vmin, -34vmin);
+    width: 37vmin;
+  }
+  
+  #bubble-3 {
+    transform: translate(-49vmin, -32vmin);
+    -webkit-transform: translate(-49vmin, -32vmin);
+    width: 35vmin;
+  }
+  
+  #bubble-4 {
+    transform: translate(10vmin, -34vmin);
+    -webkit-transform: translate(10vmin, -34vmin);
+    width: 37vmin;
+  } */

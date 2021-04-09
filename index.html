@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-Trick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hat">
+         <img src="https://p.jing.fm/clipimg/small/238-2389133_blue-old-wizard-wizard-merlin-cartoon.png" id="hat" alt="">
+           
+         <!-- Dialogues -->
+         <div id="bubble-1" class="bubble">
+            <div>Behold! <strong>The Great Al</strong> will amuse you with an amazing <strong>magic trick</strong>!</div>
+             <button onclick="start()">Start the trick!</button>
+          </div>
+          
+          <div id="bubble-2" class="bubble right">
+            <div>I will now show you <strong>6 cards</strong>. <strong>Pick one</strong>, and focus on that one only. Do not click or place the mouse over it...</div>
+            <button onclick="step1()">Hide the cards</button>
+          </div>
+          
+          <div id="bubble-3" class="bubble">
+            <div><strong>Focus and think about your card!</strong> With my great magic powers I will guess it!</div>
+            <button onclick="step2()">I found it!!</button>
+          </div>
+          
+          <div id="bubble-4" class="bubble right">
+            <div>It's done! I guessed your card and removed it from the pile! <strong>Amazing!</strong></div>
+            <button onclick="step3()">Try Again !!</button>
+          </div>
+        </div>
+        
+        <!-- Card Deck 1 -->
+        <div id="cards">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Poker-sm-222-Kh.png/150px-Poker-sm-222-Kh.png" alt="" >
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Poker-sm-244-Jc.png" alt="">
+          <img src="https://i.pinimg.com/originals/dd/17/cb/dd17cb0f0e436fa60ace35306478a32d.png" alt="">
+          <img src="https://i.pinimg.com/originals/15/e4/3a/15e43a712ac44407d23c437b0a5b43bc.png" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/51_Q_di_picche.jpg/1200px-51_Q_di_picche.jpg" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Poker-sm-234-Jd.png" alt="">
+        </div>
+        
+        <!-- Second deck-->
+        <div id="card2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Poker-sm-233-Qd.png" alt="">
+          <img src="https://st.depositphotos.com/2127699/2238/i/950/depositphotos_22389075-stock-photo-playing-card-king-of-club.jpg" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Poker-sm-224-Jh.png" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Poker-sm-243-Qc.png" alt="">
+          <img src="https://qph.fs.quoracdn.net/main-qimg-e911d127a0e80fabe2d8deb299a8b112" alt="">
+        </div>
+   <script src="app.js"></script>     
+</body>
+</html>
