@@ -42,18 +42,14 @@
     display:none;
     position: relative;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 5s;
   }
   @keyframes example {
-  /*   0%   { left:0px; top:0px;} */
-  /*   25%  {left:200px; top:0px;}
-     100% {left:0px; top:0px;} */
-     0%   { left:500px; top:0px;}
-    25%  { left:0px; top:0px;}
-  /*   25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;} */
+
+    /* 0%   { left:500px; top:0px;}
+    25%  { left:0px; top:0px;}*/
+ from {left: 500px;}
+  to {left: 0px;}
   }
   #card2{
      margin:30px;
@@ -63,11 +59,11 @@
     animation-duration: 5s;
   }
   @keyframes card2anim {
-  /*   0%   { left:0px; top:0px;} */
-  /*   25%  {left:200px; top:0px;}
-     100% {left:0px; top:0px;} */
+ 
      0%   { left:500px; top:0px;}
     25%  { left:0px; top:0px;}
+      /*from {left: 500px;}
+  to {left: 0px;} */
   }
   /* .bubble {
     border-radius: 10px;
@@ -105,27 +101,3 @@
     cursor:pointer;
   }
   
-  /* 
-  #bubble-1 {
-    transform: translate(-49vmin, -32vmin);
-    -webkit-transform: translate(-49vmin, -32vmin);
-    width: 35vmin;
-  } */
-  
-  /* #bubble-2 {
-    transform: translate(10vmin, -34vmin);
-    -webkit-transform: translate(10vmin, -34vmin);
-    width: 37vmin;
-  }
-  
-  #bubble-3 {
-    transform: translate(-49vmin, -32vmin);
-    -webkit-transform: translate(-49vmin, -32vmin);
-    width: 35vmin;
-  }
-  
-  #bubble-4 {
-    transform: translate(10vmin, -34vmin);
-    -webkit-transform: translate(10vmin, -34vmin);
-    width: 37vmin;
-  } */
